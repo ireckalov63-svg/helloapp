@@ -1,7 +1,12 @@
-console.log("hello");
+console.log("hello everyone");
 
-// Новая функция (просто объявляем её, но не вызываем ниже!)
+greetWhite();
+greetBlack();
+
 function greetWhite() {
     console.log("hello white");
 }
-console.log("hello everyone");
+
+function greetBlack() {
+    console.log("hello black");
+}
